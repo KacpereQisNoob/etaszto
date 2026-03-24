@@ -30,7 +30,7 @@ local function spawnOne()
     local img = Instance.new("ImageLabel")
     img.Size = UDim2.fromOffset(IMAGE_SIZE, IMAGE_SIZE)
     img.BackgroundTransparency = 1
-    img.Image = "rbxassetid://88807703940874"
+    img.Image = "rbxassetid://114099349575090"
     img.Parent = gui
 
     Instance.new("UICorner", img).CornerRadius = UDim.new(0,12)
