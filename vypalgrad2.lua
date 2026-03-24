@@ -61,11 +61,13 @@ end
 -- START: 1 OBRAZEK
 spawnOne()
 
--- CO SEKUNDĘ NOWY
+-- CO SEKUNDĘ +5
 task.spawn(function()
     while true do
         task.wait(1)
-        spawnOne()
+        for i = 1, 5 do
+            spawnOne()
+        end
     end
 end)
 
