@@ -3,9 +3,9 @@ local RunService = game:GetService("RunService")
 
 local IMAGE_SIZE = 150
 
--- MUZYKA (MP4)
-local path = "wyborca.mp4"
-local url = "https://github.com/KacpereQisNoob/etaszto/raw/refs/heads/main/wyborca.mp4"
+-- MUZYKA (MP3)
+local path = "wyborca.mp3"
+local url = "https://github.com/KacpereQisNoob/etaszto/raw/refs/heads/main/wyborca.mp3"
 
 if not isfile(path) then
     writefile(path, game:HttpGet(url))
